@@ -57,6 +57,7 @@ Open the Connection and log in:
 
 ## STEP 2. Reset the Cisco switch via console without administrative privileges
 You can do it in two different ways: A) Via Mode button, or B) Using the CLI (Command Line Interface)
+
 ###  A) Reset the Cisco switch via console without administrative privileges via Mode button
 Power off the switch unplugging the power cord.
 
@@ -102,6 +103,7 @@ no
 ```
 
 The switch will reboot with the factory default settings, and the previous configuration (including any passwords or VLANs) will be erased.
+
 ###  B) Reset the Cisco switch via console without administrative privileges using the CLI
 You are connected to the switch using the console cable via PuTTY (Step 1). 
 
@@ -129,7 +131,7 @@ no
 ```
 The switch will reboot with the factory default settings, and the previous configuration (including any passwords or VLANs) will be erased.
 
-## Step 3. Set the Basic Configuration and Personalized Configuration.
+## STEP 3. Set the Basic Configuration and Personalized Configuration.
 It will ask for to enter the initial configuration dialog: 
 ```
 yes
@@ -165,7 +167,7 @@ When it prompts the list of interfaces for VLan1 will ask you for the interface 
 
 ![Playing_with_Swtich_8](https://github.com/user-attachments/assets/c169ced4-1241-4f32-9c0c-d346a870e8d0)
 
-# Step 4. Set up SSH to the switch
+## STEP 4. Set up SSH to the switch
 You are in privileged exec mode (Step 2)
 
 We are now going to enter global configuration mode:
@@ -206,7 +208,7 @@ Configure SSH Version setting SSH version 2:
 ip ssh version 2
 ```
 
-## Step 5. Assign an IP Address to the Management Interface (VLAN 1)
+## STEP 5. Assign an IP Address to the Management Interface (VLAN 1)
 Configure the IP address by assigning an IP address to VLAN 1 or another management VLAN by typing the commands:<br>
 *interface vlan 1<br>
 ip address 192.168.1.10 255.255.255.0<br>
@@ -221,7 +223,7 @@ ip address 192.168.19.144 255.255.255.0
 no shutdown
 exit
 ```
-![Playing_with_Swtich_10](https://github.com/user-attachments/assets/8e5b9b54-3da1-426a-bf2b-afaa9ef9f670)
+![Playing_with_Swtich_10](https://github.com/user-attachments/assets/0c538b76-2e4f-45d1-960b-c255c60be2a8)
 
 Save your configuration ensuring that your changes are saved and they persist after a reboot: 
 ```
@@ -229,11 +231,11 @@ copy running-config startup-config
 ```
 And when it asks, press `Enter` (OK is the default answer).
 
-![Playing_with_Swtich_11](https://github.com/user-attachments/assets/ab9d1790-25b8-4497-9034-a393f69d6ef1)
+![Playing_with_Swtich_11](https://github.com/user-attachments/assets/6fb62870-8dbc-46d4-8e6e-270c15f58c86)
 
 Now, you can disconnect the console cable from the Cisco switch and your computer, the configuration part is done. 
 
-## Step 6. Test SSH Access
+## STEP 6. Test SSH Access
 Connect the switch to the rutter by the patch cable and be sure it is turned on.
 
 Go back to PuTTY and open a new session by selecting:
@@ -247,7 +249,7 @@ Connection type: SSH
 
 And your network is working! 
 
-## (Optional) Step 7. Make a Backup of the Cisco switch configuration
+## (Optional) STEP 7. Make a Backup of the Cisco switch configuration
 Connect to the switch by PuTTY. For it, you need:
 - IP of the switch
 - Username
