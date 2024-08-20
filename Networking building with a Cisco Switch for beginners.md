@@ -1,4 +1,4 @@
-# Build a Networking with a Cisco Switch by a console cable for begynners
+# Build a Networking with a Cisco Switch by a console cable for beginners
 ## Steps:
 1. Connect to the switch by Console cable
 2. Reset the Cisco switch via console without administrative privileges
@@ -134,7 +134,7 @@ It will ask for to enter the initial configuration dialog:
 ```
 yes
 ```
- Next, will ask to enter basic management setup:  
+ Next, will ask to enter the basic management setup:  
 ```
 yes
 ```
@@ -201,17 +201,17 @@ exit
 ```
 ![Playing_with_Swtich_9](https://github.com/user-attachments/assets/b153caaf-8eef-4af5-912b-332b093f0819)
 
-(Optional) Configure SSH Version setting SSH version 2:
+Configure SSH Version setting SSH version 2:
 ```
 ip ssh version 2
 ```
 
 ## Step 5. Assign an IP Address to the Management Interface (VLAN 1)
-Configure the IP address assigning an IP address to VLAN 1 or another management VLAN typing the commands:<br>
-interface vlan 1<br>
+Configure the IP address by assigning an IP address to VLAN 1 or another management VLAN by typing the commands:<br>
+*interface vlan 1<br>
 ip address 192.168.1.10 255.255.255.0<br>
 no shutdown<br>
-exit<br>
+exit<br>*
 Replacing 192.168.1.10 and 255.255.255.0 with the appropriate IP address and subnet mask.
 
 In this case: 
@@ -227,7 +227,7 @@ Save your configuration ensuring that your changes are saved and they persist af
 ```
 copy running-config startup-config
 ```
-And when it asks, press `Enter` (OK as default answer).
+And when it asks, press `Enter` (OK is the default answer).
 
 ![Playing_with_Swtich_11](https://github.com/user-attachments/assets/ab9d1790-25b8-4497-9034-a393f69d6ef1)
 
@@ -242,7 +242,8 @@ in this case:
 ```
 192.168.19.144
 ```
-Connection type: SSH        ![Playing_with_Swtich_12](https://github.com/user-attachments/assets/34ca436c-af6f-4185-ae88-d8b0cd52a5d1)
+Connection type: SSH        
+![Playing_with_Swtich_12](https://github.com/user-attachments/assets/34ca436c-af6f-4185-ae88-d8b0cd52a5d1)
 
 And your network is working! 
 
@@ -252,7 +253,7 @@ Connect to the switch by PuTTY. For it, you need:
 - Username
 - Password
 
-Go to administration rol: 
+Go to administration role: 
 ```
 enable
 ```
@@ -260,8 +261,8 @@ Access to the switch configuration:
 ```
 show configuration
 ```
-Make the backup selection with the mouse all the settings and coping it.<br>
-Paste and save it into a Notepad file.
+Select with the mouse all the settings and copy them. <br>
+Paste and save them into a Notepad file.
 
 Leave the configuration: 
 ```
