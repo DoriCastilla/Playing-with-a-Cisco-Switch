@@ -1,6 +1,4 @@
 # Playing-with-a-Cisco-Switch
-Tools:
-- A laptop
-- [PuTTY](https://www.putty.org/)
-- A Cisco switch
-- A console cable 
+
+Learning projects with: 
+## Build a Networking with a Cisco Switch by a console cable for beginners
