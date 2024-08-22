@@ -1,13 +1,16 @@
 # Build a Networking with a Cisco Switch by a console cable for beginners
-## Steps:
+
+## Objective
+To reset the configuration of the switch without administrative privileges.
+## Steps
 1. Connect to the switch by Console cable
-2. Reset the Cisco switch via console without administrative privileges
+2. Reset the Cisco switch via console 
 3. Set the Basic Configuration and Personalized Configuration.
 4. Set up SSH to the switch
 5. Assign an IP Address to the Management Interface (VLAN 1)
 6. Test SSH Access
 7. Make a Backup of the Cisco switch configuration (Optional)
-## Tools:
+## Tools
 - Computer
 - Windows 11 
 - [PuTTY](https://www.putty.org/)
@@ -15,7 +18,7 @@
 - Patch cable (ethernet) 
 - Console cable  
 - Internet connexion
-## Configuration (used in this exercise):
+## Configuration (used in this exercise)
 - Hostname: tst-cisco-01
 - Domain name: tst.lan 
 - Static IP: 192.168.19.144/24, 
@@ -55,7 +58,7 @@ Open the Connection and log in:
 - Click “Open” to start the session.
 - If successful, you should see the Cisco device's console prompt in the PuTTY terminal.
 
-## STEP 2. Reset the Cisco switch via console without administrative privileges
+## STEP 2. Reset the Cisco switch via console (without administrative privileges)
 You can do it in two different ways: A) Via Mode button, or B) Using the CLI (Command Line Interface)
 
 ###  A) Reset the Cisco switch via console without administrative privileges via Mode button
@@ -111,7 +114,9 @@ In the command prompt, change to privileged mode:
 ```
 enable
 ```
-The symbol > will change to #  ![Playing_with_Swtich_6](https://github.com/user-attachments/assets/f8c5eb57-9042-440f-8fec-b761b0c9737a)
+The symbol > will change to #  
+
+![Playing_with_Swtich_6](https://github.com/user-attachments/assets/f8c5eb57-9042-440f-8fec-b761b0c9737a)
 
 Erase the startup configuration:
 ```
@@ -247,7 +252,7 @@ in this case:
 Connection type: SSH        
 ![Playing_with_Swtich_12](https://github.com/user-attachments/assets/34ca436c-af6f-4185-ae88-d8b0cd52a5d1)
 
-And your network is working! 
+**And your network is working!**
 
 ## (Optional) STEP 7. Make a Backup of the Cisco switch configuration
 Connect to the switch by PuTTY. For it, you need:
@@ -275,6 +280,7 @@ Back to user role:
 exit
 ```
 
+![225be5b42cd3b82c3f93c5c274a028df (2)](https://github.com/user-attachments/assets/f5251788-005f-474f-a36c-2708b63c4e3a)
 
 
 
