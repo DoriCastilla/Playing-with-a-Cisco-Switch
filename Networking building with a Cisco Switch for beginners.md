@@ -3,13 +3,13 @@
 ## Objective
 To reset the configuration of the switch without administrative privileges.
 ## Steps
-1. Connect to the switch by Console cable
-2. Reset the Cisco switch via console 
-3. Set the Basic Configuration and Personalized Configuration.
-4. Set up SSH to the switch
-5. Assign an IP Address to the Management Interface (VLAN 1)
-6. Test SSH Access
-7. Make a Backup of the Cisco switch configuration (Optional)
+1. [Connect to the switch by Console cable](https://github.com/DoriCastilla/Playing-with-a-Cisco-Switch/blob/main/Networking%20building%20with%20a%20Cisco%20Switch%20for%20beginners.md#step-1-connect-to-the-switch-by-console-cable)
+2. [Reset the Cisco switch via console](https://github.com/DoriCastilla/Playing-with-a-Cisco-Switch/blob/main/Networking%20building%20with%20a%20Cisco%20Switch%20for%20beginners.md#step-2-reset-the-cisco-switch-via-console-without-administrative-privileges)
+3. [Set the Basic Configuration and Personalized Configuration](https://github.com/DoriCastilla/Playing-with-a-Cisco-Switch/blob/main/Networking%20building%20with%20a%20Cisco%20Switch%20for%20beginners.md#step-3-set-the-basic-configuration-and-personalized-configuration)
+4. [Set up SSH to the switch](https://github.com/DoriCastilla/Playing-with-a-Cisco-Switch/blob/main/Networking%20building%20with%20a%20Cisco%20Switch%20for%20beginners.md#step-4-set-up-ssh-to-the-switch)
+5. [Assign an IP Address to the Management Interface](https://github.com/DoriCastilla/Playing-with-a-Cisco-Switch/blob/main/Networking%20building%20with%20a%20Cisco%20Switch%20for%20beginners.md#step-5-assign-an-ip-address-to-the-management-interface-vlan-1)
+6. [Test SSH Access](https://github.com/DoriCastilla/Playing-with-a-Cisco-Switch/blob/main/Networking%20building%20with%20a%20Cisco%20Switch%20for%20beginners.md#step-6-test-ssh-access)
+7. [Make a Backup of the Cisco switch configuration (Optional)](https://github.com/DoriCastilla/Playing-with-a-Cisco-Switch/blob/main/Networking%20building%20with%20a%20Cisco%20Switch%20for%20beginners.md#optional-step-7-make-a-backup-of-the-cisco-switch-configuration)
 ## Tools
 - Computer
 - Windows 11 
