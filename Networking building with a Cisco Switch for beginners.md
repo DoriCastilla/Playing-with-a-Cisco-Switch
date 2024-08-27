@@ -1,4 +1,4 @@
-# Build a Networking with a Cisco Switch by a console cable for beginners
+# Networking Building with a Cisco Switch by a console cable for beginners
 
 ## Objective
 To reset the configuration of the switch without administrative privileges.
